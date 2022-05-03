@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px
+    ;
+}
+
+body{
+    background-color: rgb(176, 176, 244);
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    background-image:linear-gradient(to top, darkblue, rgba(0, 21, 255, 0.879));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+header h1{
+    
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+header p{
+    
+    margin: 5px 5px;
+    font-size: 0.5em;
+    text-align: left;
+    color: white;
+    
+}
+
+nav{
+    background-color: darkblue;
+    
+}
+
+nav > a:hover{
+    background-color: rgb(9, 218, 237);
+    color: rgb(20, 10, 152);
+}
+
+nav >a{
+    
+    display: inline;
+    margin: auto ;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+main{
+    min-width: 320px;
+    max-width: 1000px;
+    text-align: justify;
+    background-color: white;
+    padding: 0px;
+    margin: auto;
+    min-width: 350px;
+    max-width: 1300px;
+}
+
+main h2{
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+main p{
+    margin: 15px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif, Verdana, ;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
